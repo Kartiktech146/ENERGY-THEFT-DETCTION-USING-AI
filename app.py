@@ -159,7 +159,8 @@ def main():
         st.dataframe(df_anomalies[df_anomalies['anomaly_prediction'] == -1][columns_to_show])
 
     else:
-        st.warning("Analysis shuru karne ke liye, lütfen ek CSV file upload karein.")
+        st.warning("Analysis shuru karne ke liye, Ek CSV file upload karein.")
 
 if __name__ == "__main__":
+
     main()
